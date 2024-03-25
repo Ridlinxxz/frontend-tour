@@ -5,7 +5,7 @@ body {
 }
 p {
     color: white;
-    font-size: 10px;
+    font-size: 9px;
 }
 .name {
     font-size: 17px;
@@ -24,7 +24,7 @@ a {
 .box3:hover,
 .box4:hover,
 .box5:hover {
-    background-color: rgb(182, 185, 184);
+    background-color: rgb(156, 156, 156);
 }
 .main {
     margin: 100px auto;
@@ -37,7 +37,7 @@ a {
 }
 .main div {
     background-color: rgb(72, 72, 72);
-    border-radius: 10px;
+    border-radius: 7px;
     width: 210px;
     font-size: 0.7em;
     font-family: sans-serif;
