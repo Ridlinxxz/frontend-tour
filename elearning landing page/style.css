@@ -1,0 +1,142 @@
+
+body {
+    background-color: whitesmoke;
+    padding: 20px 20px 0px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main {
+    width: 90%;
+    height: 1600px;
+    padding: 10px 20px;
+    margin: auto;
+    /* background-color: whitesmoke; */
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.skilled {
+    color: rgb(17, 1, 59);
+}
+.getstarted {
+    background-color: rgb(17, 1, 59);
+    padding: 15px;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 0.8rem;
+    width: 95px;
+}
+.getstarted2 {
+    background-color: rgb(17, 1, 59);
+    border-radius: 30px;
+    font-size: 0.8rem;
+    margin-top: 20px;
+    padding: 15px 20px;
+    text-align: center;
+    width: 100px;
+    
+}
+.top div{
+    margin: auto 10px;
+}
+.mid1 {
+    margin: 80px auto 40px auto;
+    height: 450px;
+}
+.bold {
+    color: rgb(17, 1, 59);
+    font-size: 35px;
+    width: 65%;
+}
+.writeup {
+    font-size: 0.8rem;
+    width: 60%;
+    color: rgb(68, 68, 68);
+    line-height: 1.5;
+}
+.mod {
+    width: 45%;
+    margin-left: 150px;
+}
+.coursehour,
+.members {
+    /* position: relative;
+    left: 610px;
+    top: -280px; */
+    background-color: azure;
+    width: 8%;
+    padding: 20px 10px 20px 10px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 5px 0px;
+}
+.num,
+.num2 {
+    font-size: 26px;
+    margin: 0px;
+}
+.cou,
+.mem {
+    font-size: 12px;
+    margin: 0px;
+}
+.members {
+    /* left: 1050px;
+    top: 200px; */
+}
+.middle-divs div,
+.middle-div2 div {
+    border-radius: 15px;
+    padding: 0px 25px 30px 25px;
+    text-align: left;
+    width: 30%;
+    height: 250px;
+    margin: 70px 10px 10px 10px;
+    line-height: 1.5;
+}
+p {
+    font-size: 15px;
+    margin-top: 0px;
+}
+h3 {
+    font-size: 23px;
+    margin-top: 0px;
+}
+h4 {
+    font-size: 15px;
+    color: rgb(200, 3, 111);;
+}
+.check {
+    font-size: 20px;
+    color: white;
+    background-color: rgb(249, 21, 131);
+}
+.animation,
+.design,
+.photography,
+.crypto,
+.business {
+    font-size: 16px;
+    color: rgb(68, 68, 68);
+    background-color: white;
+}
+img {
+    position: relative;
+    top: -32px;
+    width: 15%;
+}
+.bottom {
+    width: 80%;
+    background-color: rgb(17, 1, 59);
+    padding: 20px 140px;
+}
+.skilled3 {
+    color: white;
+}
+.getstarted3 {
+    background-color: rgb(249, 21, 131);
+    padding: 15px;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 0.8rem;
+    width: 95px;
+}

@@ -1,0 +1,18 @@
+.top {
+    display: -webkit-flex;
+    -webkit-justify-content: space-between;
+}
+.mid1 {
+    display: -webkit-flex;
+    -webkit-flex-direction: row;
+    -webkit-justify-content: space-between;
+}
+.middle-divs {
+    display: -webkit-flex;
+    -webkit-flex-direction: row;
+}
+.middle-div2 {
+    display: -webkit-flex;
+    -webkit-flex-direction: row;
+}
+

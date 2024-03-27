@@ -26,11 +26,31 @@ a {
 .box5:hover {
     background-color: rgb(156, 156, 156);
 }
+/* .button {
+    background-color: rgb(72, 72, 72);
+    border-radius: 7px;
+    width: 210px;
+    font-size: 0.7em;
+    font-family: sans-serif;
+    padding: 10px 10px;
+    margin: 15px auto;
+    color: white;
+} */
+/* .btn {
+    background-color: rgb(72, 72, 72);
+    border-radius: 7px;
+    width: 210px;
+    font-size: 0.7em;
+    font-family: sans-serif;
+    padding: 10px 10px;
+    margin: 15px auto;
+    color: white;
+} */
 .main {
     margin: 100px auto;
     width: 250px;
     height: 440px;
-    background-color: rgb(46, 46, 46);
+    background-color: rgb(45, 45, 45);
     padding: 35px 15px 5px 15px;
     text-align: center;
     border-radius: 10px;
