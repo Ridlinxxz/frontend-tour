@@ -1,0 +1,76 @@
+body {
+ margin: 0;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.topper {
+    background-color: aquamarine;
+    width: 90%;
+    padding: 20px;
+    margin: auto;
+}
+.topper a {
+    text-decoration: none;
+    margin: auto 30px;
+    color: black;
+}
+.mid {
+    width: 90%;
+    margin: auto;
+    padding-top: 40px;
+    background-color: aquamarine;
+    margin: auto;
+}
+.mid div {
+    margin: auto 20px;
+}
+.puzzle {
+    width: 1000px;
+    height: 350px;
+}
+.solid-box {
+    width: 25%;
+    /* height: 600px; */
+    padding: 20px;
+    background-color: rgb(1, 1, 71);
+    color: white;
+}
+h3 {
+    width: 100%;
+    font-size: 18px;
+}
+p {
+    line-height: 2;
+    width: 90%;
+    font-size: 13px;
+}
+.future {
+    position: relative;
+    left: 150px;
+    bottom: 200px;
+    font-size: 65px;
+    width: 25%;
+    line-height: 1;
+    margin: 0px;
+}
+.bottom {
+    width: 90%;
+    margin: auto;
+    padding: 30px;
+    background-color: whitesmoke;
+    line-height: 0.8;
+}
+.tech {
+    width: 7%;
+    float: left;
+    margin-right: 20px;
+}
+.one {
+    width: 20;
+}
+.reviving {
+
+}
+.what {
+    font-size: 15px;
+    width: 25%;
+}

@@ -1,0 +1,15 @@
+.topper {
+    display: -webkit-flex;
+    -webkit-justify-content: flex-end;
+}
+.mid {
+    display: -webkit-flex;
+}
+.bottom {
+    display: -webkit-flex;
+}
+/* @media screen and (max-width: 999px) {
+    .mid {
+        -webkit-flex-direction: column;
+    }
+} */

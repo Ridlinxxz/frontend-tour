@@ -6,7 +6,7 @@ body {
 }
 .main {
     width: 90%;
-    height: 1600px;
+    height: 1800px;
     padding: 10px 20px;
     margin: auto;
     /* background-color: whitesmoke; */
@@ -84,7 +84,8 @@ a {
     top: 200px; */
 }
 .middle-divs div,
-.middle-div2 div {
+.middle-div2 div,
+.check2 {
     border-radius: 15px;
     padding: 0px 25px 30px 25px;
     text-align: left;
@@ -119,6 +120,23 @@ h4 {
     color: rgb(68, 68, 68);
     background-color: white;
 }
+.check:hover,
+.animation:hover,
+.design:hover,
+.photography:hover,
+.crypto:hover,
+.business:hover,
+.getstarted3:hover,
+.getstarted2:hover,
+.getstarted:hover,
+.mod:hover {
+    background-color: rgb(115, 250, 205);
+    transition-property: all;
+    transition-duration: 1s;
+    margin-top: 2%;
+    transition-timing-function: ease-out;
+}
+
 img {
     position: relative;
     top: -32px;
@@ -139,4 +157,20 @@ img {
     text-align: center;
     font-size: 0.8rem;
     width: 95px;
+}
+.anime {
+    padding: 20px;
+    margin: auto;
+}
+.check2 {
+    font-size: 20px;
+    color: white;
+    background-color: rgb(249, 21, 131);
+    margin-bottom: 15px;
+    transition-duration: 1s;
+    transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.anime:hover .check2 {
+    background-color: rgb(115, 250, 205);
+    margin-left: 65%;
 }
