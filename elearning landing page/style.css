@@ -120,21 +120,31 @@ h4 {
     color: rgb(68, 68, 68);
     background-color: white;
 }
+
+.getstarted3:hover,
+.getstarted2:hover,
+.getstarted:hover {
+    background-color: rgb(115, 250, 205);
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+}
+
 .check:hover,
 .animation:hover,
 .design:hover,
 .photography:hover,
 .crypto:hover,
-.business:hover,
-.getstarted3:hover,
-.getstarted2:hover,
-.getstarted:hover,
-.mod:hover {
+.business:hover {
     background-color: rgb(115, 250, 205);
     transition-property: all;
     transition-duration: 1s;
     margin-top: 2%;
     transition-timing-function: ease-out;
+}
+.mod:hover {
+    -webkit-transform: scale(1.1);
+    transition-duration: 1s;
 }
 
 img {

@@ -4,6 +4,7 @@ body {
     color: antiquewhite;
     font-family: sans-serif;
 }
+/*transition*/
 .wrap {
     margin: 0 auto;
     padding: 15px;
@@ -24,4 +25,28 @@ body {
 .wrap:hover .box {
     background-color: chocolate;
     margin-left: 75%;
+}
+
+/*2D transform*/
+.wrap2 {
+    margin: 10px auto;
+    padding: 110px 0;
+    width: 85%;
+    background-color: rgb(210, 210, 211);
+}
+.box2 {
+    margin: auto;
+    width: 150px;
+}
+.mypic {
+    display: block;
+    width: 100%;
+    transition: 1s;
+    transition-timing-function: ease-in-out;
+}
+.wrap2:hover .mypic{
+    -webkit-transform: scale(1.5) rotate(360deg);
+    /* -webkit-transform: rotate(360deg); */
+    -webkit-transform-origin: top;
+    
 }
