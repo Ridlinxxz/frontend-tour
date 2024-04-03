@@ -1,0 +1,22 @@
+body {
+    -webkit-perspective: 800px;
+}
+.wrap3 {
+    transition: -webkit-transform 1s ease-in;
+}
+.wrap3 div {
+    position: absolute;
+}
+.side-a {
+    z-index: 100;
+}
+.wrap3:hover {
+    -webkit-transform: rotateY(-365deg);
+}
+/*transform e-learning page*/
+.mod {
+    transition: -webkit-transform 1s ease-in;
+}
+.mod:hover {
+    -webkit-transform: rotateY(-365deg);
+}

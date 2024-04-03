@@ -1,0 +1,37 @@
+/*animation*/
+
+.boat { 
+    -webkit-animation: float 3s ease-in-out infinite;
+    /* -webkit-animation-iteration-count: infinite; */
+}
+
+/* .mike {
+    -webkit-transition: ;
+} */
+body {
+    -webkit-animation: bg-move 8s ease-out infinite;
+    -webkit-animation-direction: alternate;
+}
+.mike {
+    -webkit-animation: mike-move 6s 6s ease-out forwards,
+                       mike-float 3.2s infinite;
+}
+
+
+/*key frame*/
+
+@-webkit-keyframes float {
+    50%  { -webkit-transform: rotate(-5deg) translateY(-10px); }
+}
+
+/* @-webkit-keyframes bg-move {
+    0%   { background-position: 100% -160%; }
+    100% { background-position: -350% -460% }
+} */
+
+@-webkit-keyframes mike-move {
+    100% { left: 18%; }
+}
+@-webkit-keyframes mike-float{
+    50% { -webkit-transform: rotateZ(5deg) translateY(-5px); }
+}

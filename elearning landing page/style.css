@@ -141,6 +141,7 @@ h4 {
     transition-duration: 1s;
     margin-top: 2%;
     transition-timing-function: ease-out;
+    transform: scale(1.1);
 }
 .mod:hover {
     -webkit-transform: scale(1.1);

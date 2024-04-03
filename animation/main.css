@@ -1,0 +1,30 @@
+body {
+    background: rgb(200, 239, 254) url(images/island.png) repeat-x 100% -460px;
+    background-size: 780px;
+}
+.boat {
+    width: 300px;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+}
+.boat image {
+    width: 100%;
+}
+.boat::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 100px;
+    /* background-color: rgb(170, 225, 247); */
+    position: absolute;
+    top: -25%;
+    left: 5%;
+}
+.mike {
+    width: 280px;
+    position: absolute;
+    top: 55%;
+    left: -15%;
+    -webkit-transform: rotateZ(-5deg);
+}
