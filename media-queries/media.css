@@ -1,17 +1,108 @@
 body {
-    margin: auto 50px;
-}
-.Logo {
-    width: 100%;
-    height: 200px;
-    border-radius: 10px;
-    margin: auto 10px;
-    background-color: rgb(28, 18, 64);
+    background-color: white;
+    display: block;
+    padding: 5px 20px 0 20px;
+    font: 1.5em sans-serif;
     color: white;
-    text-align: center;
-    padding: 20px;
 }
-.main
-
+.wrap {
+    margin: auto;
+    width: 90%;
+}
+.main-header {
+    background-color: rgb(22, 176, 253);
+    text-align: center;
+}
+.logo,
+.main-nav a {
+    display: inline-block;
+    color: white;
+    text-align: none;
+    text-decoration: none;
+    margin: 2px;
+}
+.main-nav a {
+    padding: 0.74em;
+    /* border-right: 3px dotted; */
+    color: rgb(255, 255, 255);
+    font-size: .6em;
+    line-height: 1rem;
+}
+.main-nav a:hover  {
+    text-decoration: underline;
+}
+.main-nav :last-child {
+    border-right: none;
+}
+.content,
+.main-header {
+    overflow: hidden;
+}
+.col {
+    height: 240px;
+}
+.main {
+    background-color: rgb(28, 18, 64);
+}
+.secondary {
+    background-color: rgb(6, 151, 98);
+}
+.extra {
+    background-color: tomato;
+    display: none;
+}
+.main-footer {
+    background-color: rgb(99, 101, 103);
+}
+.main-header,
+.col,
+.main-footer {
+    margin-bottom: 15px;
+    padding: 2.15%;
+    border-radius: 5px;
+}
 
 /*==========media queries===========*/
+
+/*phone to tablet*/
+
+@media only screen and (min-width: 600px) {
+    .col {
+        float: left;
+    }
+    .main {
+        width: 58%;
+    }
+    .secondary {
+        width: 30%;
+
+    }
+    .secondary,
+    .extra {
+        margin-left: 1%;
+    }
+}
+
+/* Tablet to Desktop*/
+
+@media only screen and (min-width: 750px) {
+    .logo {
+        float: left;
+    }
+    .main-nav {
+        float: right;
+    }
+    .main {
+        width: 35%;
+    }
+    .extra {
+        display: block;
+        width: 20%;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .wrap {
+        width: 1020px;
+    }
+    
+}
