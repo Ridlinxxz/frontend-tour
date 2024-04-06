@@ -164,3 +164,33 @@ body {
     70%   { width:  70%; }
     100%  { width: 100%; }
 }
+
+/*Gradient*/
+.wrap7 {
+    padding: 10px 50px;
+    margin: auto;
+    background-color: bisque;
+}
+.gradient {
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    border-radius: 5px;
+    background: -webkit-linear-gradient(bottom left, red, blue 70%); /*degree can also be used to change color direction*/ /*chrome support*/
+    background: -moz-linear-gradient(bottom left, red, blue 70%);/*firefox support*/
+    background: -o-linear-gradient(bottom left, red, blue 70%);/*opera support*/
+}
+.wrap8 {
+    padding: 10px 50px;
+    margin: auto;
+    background-color: bisque;
+}
+.gradients {
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    border-radius: 50%;
+
+    background: -webkit-radial-gradient(50% 20%, circle aqua, darkblue);
+    /* background: -webkit-radial-gradient(circle, green, orange);   closest-side farthest-side */
+}
