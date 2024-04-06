@@ -12,9 +12,9 @@ body {
     z-index: 100;
 }
 .wrap3:hover {
-    /* -webkit-transform: rotateZ(365deg);
-    -webkit-transform: rotateX(365deg);
-    -webkit-transform: rotateY(365deg); */
+    /* -webkit-transform: rotateZ(365deg); */
+    /* -webkit-transform: rotateX(365deg); */
+    /* -webkit-transform: rotateY(365deg); */
     -webkit-transform: rotate3d(1,1,0,360deg);
 }
 

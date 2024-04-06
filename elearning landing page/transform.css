@@ -15,8 +15,10 @@ body {
 }
 /*transform e-learning page*/
 .mod {
-    transition: -webkit-transform 1s ease-in;
+    transition: -webkit-transform 2s ease-in;
 }
 .mod:hover {
-    -webkit-transform: rotateY(-365deg);
+    /* -webkit-transform: scaleX(); */
+    /* -webkit-transform: translate(20px); */
+    -webkit-transform: rotate(360deg);
 }

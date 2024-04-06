@@ -48,7 +48,7 @@ body {
 .wrap2:hover .mypic{
     -webkit-transform: scale(1.5) rotate(360deg);
     /* -webkit-transform: rotate(360deg); */
-    -webkit-transform-origin: top; 
+    /* -webkit-transform-origin: top;  */
 }
 
 /*3D transform*/

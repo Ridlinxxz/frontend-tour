@@ -12,23 +12,32 @@ body {
     color: white;
 }
 .navbar {
+    top: 200px;
     display: flex;
     background-color: black;
+    padding-left: 4%;
     width: 100%;
 
 }
 .navbar a {
     color: white;
-    line-height: 1.5;
+    /* line-height: 1.5; */
+    padding: 14px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+.navbar a:hover {
+    background-color: white;
+    color: black;
 }
 .row {
-    padding: auto;
+    padding: 0px 50px;
     display: flex;
     flex-wrap: wrap;
 }
 .side {
     width: 20%;
-    background-color: rgb(216, 215, 215);
+    /* background-color: rgb(216, 215, 215); */
     padding: 20px;
 }
 .main {
@@ -43,7 +52,7 @@ body {
     width: 100%;
 }
 .comment {
-    background-color: rgb(159, 159, 159);
+    /* background-color: rgb(159, 159, 159); */
     padding: 10px;
     width: 16%;
     margin-left: 2%;
@@ -53,6 +62,12 @@ body {
     padding: 35px;
     text-align: center;
 }
+/* .header,
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 100%;
+} */
 
 /*media queries*/
 
@@ -68,6 +83,37 @@ body {
     }
     .comment {
         width: 100%;
+        /* display: none; */
+    }
+}
+/*print page*/
+@media print {
+    * {
+        background: transparent !important;
+        color: black !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+}
+    .header,
+    .side,
+    .comment,
+    .navbar,
+    .footer {
         display: none;
     }
+/* }
+    a[href^="http:"]::after {
+        content:attr(href);
+        color: blue;
+} */
+@page {
+    margin: 5cm;
+}
+h2 {
+    page-break-after: avoid;
+}
+h2,
+h5,
+p {
+    font-size: 11pt;
 }
