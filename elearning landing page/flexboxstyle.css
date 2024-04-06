@@ -15,4 +15,8 @@
     display: -webkit-flex;
     -webkit-flex-direction: row;
 }
+.bot {
+    display: -webkit-flex;
+    -webkit-justify-content: space-between;
+}
 

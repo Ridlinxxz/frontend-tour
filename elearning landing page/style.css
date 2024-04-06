@@ -18,26 +18,18 @@ a {
 .skilled {
     color: rgb(17, 1, 59);
 }
-.getstarted {
+.getstarted,
+.getstarted2,
+.getstarted3 {
     background-color: rgb(17, 1, 59);
-    padding: 15px;
+    padding: 15px 20px;
     border-radius: 30px;
     text-align: center;
     font-size: 0.8rem;
     width: 95px;
 }
 .getstarted2 {
-    background-color: rgb(17, 1, 59);
-    border-radius: 30px;
-    font-size: 0.8rem;
-    margin-top: 20px;
-    padding: 15px 20px;
-    text-align: center;
-    width: 100px;
-    
-}
-.top div{
-    margin: auto 10px;
+    margin: 19.920px 0px;
 }
 .mid1 {
     margin: 80px auto 40px auto;
@@ -120,11 +112,11 @@ h4 {
     color: rgb(68, 68, 68);
     background-color: white;
 }
-
-.getstarted3:hover,
+.getstarted:hover,
 .getstarted2:hover,
-.getstarted:hover {
+.getstarted3:hover {
     background-color: rgb(115, 250, 205);
+    color: black;
     transition-property: all;
     transition-duration: 1s;
     transition-timing-function: ease-out;
@@ -163,11 +155,7 @@ img {
 }
 .getstarted3 {
     background-color: rgb(249, 21, 131);
-    padding: 15px;
-    border-radius: 30px;
-    text-align: center;
-    font-size: 0.8rem;
-    width: 95px;
+    margin: 10px 0px;
 }
 .anime {
     padding: 20px;
