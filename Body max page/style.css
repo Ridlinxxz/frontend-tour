@@ -25,7 +25,9 @@ p {
 .float2,
 .float3,
 .float4,
-.float5 {
+.float5,
+.input,
+.hw {
     display: -webkit-flex;
     /* flex-wrap: wrap; */
 }
@@ -55,10 +57,46 @@ h1 {
     width: 37%;
     /* box-shadow: 15px 5px 35px 1px rgb(103, 103, 103); */
 }
+/* .input {
+    -webkit-justify-content: space-between;
+} */
+.metric2,
+.imperial2 {
+    font-weight: bold;
+}
+.imperial {
+    margin-left: 150px;
+}
+.hbox {
+    color: rgb(2, 81, 165);
+    font-size: 18px;
+    font-weight: bold;
+    width: 200px;
+    height: 60px;
+    border-color: rgb(173, 173, 173);
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1.5px;
+    margin-top: 5px;
+    padding: 20px 10px 20px 155px;
+}
+.height,
+.weight {
+    width: 100%;
+}
+.height2,
+.weight2 {
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+.hw {
+    -webkit-justify-content: space-between;
+}
 .welcome {
     background: -webkit-linear-gradient(right, rgb(0, 49, 184), rgb(1, 79, 197));
     border-radius: 10px 60px 60px 10px;
     color: white;
+    margin-top: 20px;
     padding: 15px;
 }
 .enter {
@@ -179,9 +217,14 @@ h3 {
 .line3 {
         -webkit-flex-direction: column;
 }
+.wrap {
+    padding: 0px;
+    width: 100%;
+}
 .body,
 .details,
 .img,
+.guy,
 .bmi,
 .healthy,
 .regular,
@@ -189,17 +232,24 @@ h3 {
 .body2,
 .gender,
 .age,
-.muscle{
+.muscle,
+h1,
+h2,
+.longwords,
+.longwords2,
+.longwords3,
+.limitation,
+p{
         width: 100%;
         margin-left: 0px;
         margin-right: 0px;
 }
 .pregnancy,
 .race {
-    width: 220%;
+    width: 155%;
 }
 .gender {
-    margin-left: -13px;
+    margin-left: -12px;
 }
 .age,
 .muscle,
@@ -207,10 +257,6 @@ h3 {
 .race {
         margin-left: 60px;
     }
-/* .pregnancy,
-.race {
-    width: 100%;
-    } */
 .crypto1 {
     height: 28px;
     width: 28px;
