@@ -10,7 +10,7 @@ p {
     line-height: 1.5;
 }
 .header {
-    background-color: black;
+    background-color: rgb(2, 1, 83);
     color: white;
     display: -webkit-flex;
     -webkit-justify-content: space-between;
@@ -20,7 +20,7 @@ a {
     color: white;
     text-decoration: none;
 }
-.audiophile {
+.audiomart {
     margin-left: 150px;
 }
 .nav {
@@ -36,8 +36,10 @@ a {
     border-bottom: 0;
     width: 50%;
 } */
+
+
 .div1 {
-    background-color: black;
+    background-color: rgb(2, 1, 83);
     display: -webkit-flex;
     padding: 60px 80px;
     width: 100%;
@@ -65,7 +67,7 @@ a {
 .seemore {
     font-size: 0.7rem;
     font-weight: bold;
-    background-color: rgb(252, 145, 24);
+    background-color: rgb(3, 163, 249);
     padding: 15px 20px;
     text-align: center;
     width: 30%;
@@ -77,18 +79,94 @@ a {
     margin-left: 0px;
     width: 35%;
 }
+
+
 .wrap {
     color: black;
     width: 100%;
 }
+
+
 .div2 {
     display: flex;
     padding: 20px 150px;
     width: 100%;
 }
-.headphone {
-    background-color: rgb(222, 222, 222);
+.div2 div {
+    margin: 200px auto auto auto;
+}
+.div2 a {
+    color: rgb(81, 81, 81);
+    font-size: 0.8rem;
+}
+.headphone,
+.speaker,
+.earphone {
+    background-color: rgb(219, 244, 255);
     border-radius: 15px;
-    padding: 80px 30px 20px 30px;
+    padding:100px 30px 20px 30px;
+    text-align: center;
     width: 30%;
+}
+.hp,
+.sp,
+.ep {
+    position: absolute;
+    margin-top: -150px;
+    margin-left: -57px;
+    width: 8%;
+}
+.sp {
+    width: 7%;
+    margin-left: -48px;
+}
+.ep {
+    width: 10%;
+    margin-left: -70px;
+}
+
+
+.div3 {
+    margin-top: 100px;
+    width: 100%;
+}
+.zx9 {
+    display: flex;
+    background-color: rgb(74, 190, 253);
+    border-radius: 10px;
+    margin: auto;
+    padding: 0px;
+    width: 78%;
+}
+.bigspeaker {
+    margin: 75px 0px 0px 70px;
+    width:56%;
+}
+.bold2 {
+    margin-top: 170px;
+    width: 40%;
+}
+.bold2 h1 {
+    color: white;
+    font-size: 50px;
+    margin: 0px;
+    width: 60%;
+    line-height: 1;
+}
+.bold2 p {
+    color: white;
+    margin-bottom: 50px;
+    width: 70%;
+}
+.seeprod {
+    font-size: 0.7rem;
+    font-weight: bold;
+    background-color: rgb(2, 1, 83);
+    padding: 15px 20px;
+    text-align: center;
+    width: 30%;
+}
+
+.div4 {
+    background-image: url();
 }
