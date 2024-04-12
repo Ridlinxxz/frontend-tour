@@ -9,12 +9,14 @@ p {
     font-size: 0.9rem;
     line-height: 1.5;
 }
-.header {
-    background-color: rgb(2, 1, 83);
-    color: white;
-    display: -webkit-flex;
-    -webkit-justify-content: space-between;
+.header,
+.div1,
+.footer {
+    background-color: black;
     width: 100%;
+}
+.header {
+    color: white;
 }
 a {
     color: white;
@@ -24,7 +26,7 @@ a {
     margin-left: 150px;
 }
 .nav {
-    margin: auto 550px auto auto;
+    margin: auto 450px auto auto;
 }
 .nav a {
     margin: auto 20px;
@@ -37,12 +39,16 @@ a {
     width: 50%;
 } */
 
-
-.div1 {
-    background-color: rgb(2, 1, 83);
+.header,
+.div1,
+.div2,
+.div5,
+.div6,
+.footer {
     display: -webkit-flex;
+}
+.div1 {
     padding: 60px 80px;
-    width: 100%;
 }
 .bold {
     margin-left: 80px;
@@ -65,9 +71,10 @@ a {
     margin-bottom: 50px;
 }
 .seemore {
+    color: black;
     font-size: 0.7rem;
     font-weight: bold;
-    background-color: rgb(3, 163, 249);
+    background-color: rgb(255, 132, 32);
     padding: 15px 20px;
     text-align: center;
     width: 30%;
@@ -88,7 +95,6 @@ a {
 
 
 .div2 {
-    display: flex;
     padding: 20px 150px;
     width: 100%;
 }
@@ -102,7 +108,7 @@ a {
 .headphone,
 .speaker,
 .earphone {
-    background-color: rgb(219, 244, 255);
+    background-color: rgb(227, 227, 227);
     border-radius: 15px;
     padding:100px 30px 20px 30px;
     text-align: center;
@@ -125,26 +131,25 @@ a {
     margin-left: -70px;
 }
 
-
-.div3 {
-    margin-top: 100px;
-    width: 100%;
-}
-.zx9 {
-    display: flex;
-    background-color: rgb(74, 190, 253);
+.div3,
+.div4,
+.div5,
+.div6 {
     border-radius: 10px;
-    margin: auto;
-    padding: 0px;
     width: 78%;
 }
-.bigspeaker {
-    margin: 75px 0px 0px 70px;
-    width:56%;
+
+.div3 {
+    background-image: url(../audiophile-page/image/speak.png);
+    background-color: rgb(74, 190, 253);
+    background-position-x: -30px;
+    height: 480px;
+    margin: 170px auto auto auto;
+    padding: 0px;
 }
-.bold2 {
-    margin-top: 170px;
-    width: 40%;
+/* .bold2 {
+    margin-top: 100px;
+    width: 35%;
 }
 .bold2 h1 {
     color: white;
@@ -165,8 +170,85 @@ a {
     padding: 15px 20px;
     text-align: center;
     width: 30%;
+} */
+.div4,
+.div5 {
+    margin: 30px auto auto auto;
+}
+.div4,
+.mod,
+.ipod {
+    background-size: 100%;
+}
+.div4 {
+    background-image: url('../audiophile-page/image/bcg.png');
+    background-repeat: repeat-x;
+    background-position-x: -32px;
+    background-position-y: -10px;
+    padding: 100px;
+}
+.div4 h3 {
+    font-size: 25px;
+    margin-bottom: 50px;
+    width: 40%;
+}
+.seeprod2,
+.seeprod3 {
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    color: black;
+    padding: 20px;
+}
+.header,
+.div5,
+.div6 {
+    -webkit-justify-content:space-between;
+}
+.ipod,
+.yx1 {
+    border-radius: 10px;
+    width: 49%;
+    height: 300px;
+} 
+.ipod {
+    background-image: url(../audiophile-page/image/earpod3.jpg); 
+}
+.div5 h3 {
+    font-size: 25px;
+    margin-bottom: 50px;
+    width: 40%;
+}
+.yx1 {
+    background-color: rgb(227, 227, 227);
+    padding: 50px 50px 50px 80px;   
 }
 
-.div4 {
-    background-image: url();
+.div6 {
+    border-radius: none;
+    margin: 150px auto auto auto;
+}
+.bold3 {
+    margin-top: 100px;
+    width: 45%;
+}
+.bring {
+    font-size: 32px;
+    width: 65%;
+}
+.lorem {
+    width: 90%;
+}
+.mod {
+    background-image: url(../audiophile-page/image/modela.jpg);
+    border-radius: 10px;
+    height: 500px;
+    width: 50%;
+}
+.bold3 important {
+    color: rgb(255, 132, 32);
+}
+
+.footer {
+
 }
