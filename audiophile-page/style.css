@@ -15,22 +15,41 @@ p {
     background-color: black;
     width: 100%;
 }
-.header {
+.header,
+.footer {
     color: white;
+}
+.header {
+    /* padding: 25px 0px; */
 }
 a {
     color: white;
     text-decoration: none;
 }
 .audiomart {
-    margin-left: 150px;
+    margin: 0px;
+    padding-bottom: 20px;
 }
-.nav {
-    margin: auto 450px auto auto;
+.head {
+    margin: auto;
+    padding: 20px 0px;
+}
+nav {
+    /* padding: 25px 0px; */
 }
 .nav a {
+    font-size: 0.7rem;
+    margin: 0px;
+    padding: 20px;
+}
+.nav2 a {
     margin: auto 20px;
     font-size: 0.7rem;
+}
+.nav a:hover {
+    background-color: white;
+    border-width: 2%;
+    color: black;
 }
 /* hr {
     border: dotted; 
@@ -39,12 +58,12 @@ a {
     width: 50%;
 } */
 
-.header,
+.head,
 .div1,
 .div2,
 .div5,
 .div6,
-.footer {
+.foot {
     display: -webkit-flex;
 }
 .div1 {
@@ -52,7 +71,7 @@ a {
 }
 .bold {
     margin-left: 80px;
-    margin-top: 80px;
+    margin-top: 60px;
     width: 40%;
 }
 .new {
@@ -78,6 +97,9 @@ a {
     padding: 15px 20px;
     text-align: center;
     width: 30%;
+}
+.seemore:hover {
+    background-color: white;
 }
 .hpimg {
     width: 100%;
@@ -105,6 +127,10 @@ a {
     color: rgb(81, 81, 81);
     font-size: 0.8rem;
 }
+.div2 a:hover,
+.nav2 a:hover {
+    color: rgb(255, 132, 32);
+}
 .headphone,
 .speaker,
 .earphone {
@@ -131,10 +157,12 @@ a {
     margin-left: -70px;
 }
 
+.head,
 .div3,
 .div4,
 .div5,
-.div6 {
+.div6,
+.foot {
     border-radius: 10px;
     width: 78%;
 }
@@ -180,6 +208,7 @@ a {
 .ipod {
     background-size: 100%;
 }
+.div3,
 .div4 {
     background-image: url('../audiophile-page/image/bcg.png');
     background-repeat: repeat-x;
@@ -192,6 +221,11 @@ a {
     margin-bottom: 50px;
     width: 40%;
 }
+.seeprod2:hover,
+.seeprod3:hover {
+    background-color: black;
+    color: white;
+}
 .seeprod2,
 .seeprod3 {
     border-color: black;
@@ -200,9 +234,10 @@ a {
     color: black;
     padding: 20px;
 }
-.header,
+.head,
 .div5,
-.div6 {
+.div6,
+.foot {
     -webkit-justify-content:space-between;
 }
 .ipod,
@@ -250,5 +285,28 @@ a {
 }
 
 .footer {
-
+    margin-top: 150px;
+    padding: 100px 0px 50px 0px;
+}
+.foot {
+    margin: auto;
+}
+.bold4 {
+    /* margin-left: 85px; */
+    width: 50%;
+}
+.bold4 h2,
+.longword {
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+.bold4 p {
+    width: 100%;
+}
+.copy {
+    margin: 0px;
+}
+.nav2 {
+    font-size: 0.8rem;
+    display: flex;
 }
