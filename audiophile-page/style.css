@@ -51,18 +51,13 @@ nav {
     border-width: 2%;
     color: black;
 }
-/* hr {
-    border: dotted; 
-    color: rgb(179, 177, 177); 
-    border-bottom: 0;
-    width: 50%;
-} */
 
 .head,
 .div2,
 .div5,
 .div6,
-.foot {
+.foot,
+.nav2 {
     display: -webkit-flex;
 }
 .div1 {
@@ -70,6 +65,7 @@ nav {
     background-size: 90%;
     background-position-x: 30px;
     background-position-y: -40px;
+    background-repeat: no-repeat;
     padding: 60px 80px;
 }
 .bold {
@@ -133,12 +129,19 @@ nav {
 .headphone,
 .speaker,
 .earphone {
-    background-color: rgb(227, 227, 227);
     border-radius: 15px;
     padding:100px 30px 20px 30px;
     text-align: center;
     width: 30%;
 }
+.headphone,
+.speaker,
+.earphone,
+.yx1 {
+    background-color: rgb(227, 227, 227);
+}
+
+
 .hp,
 .sp,
 .ep {
@@ -159,7 +162,8 @@ nav {
 .div3 {
     background-image: url(../audiophile-page/image/speak.png);
     background-size: 110%;
-    background-position-x: 40px;
+    background-position-x: -30px;
+    background-repeat: no-repeat;
     color: white;
     height: 450px;
     padding-top: 60px;
@@ -189,16 +193,19 @@ nav {
 .div4,
 .div5,
 .div6,
-.foot {
+.foot,
+.ipod,
+.yx1 {
     border-radius: 10px;
     width: 78%;
 }
-
 
 .div4,
 .div5 {
     margin: 30px auto auto auto;
 }
+.div1
+.div3,
 .div4,
 .mod,
 .ipod {
@@ -206,9 +213,8 @@ nav {
 }
 .div4 {
     background-image: url('../audiophile-page/image/bcg.png');
-    background-repeat: repeat-x;
-    background-position-x: -32px;
     background-position-y: -10px;
+    background-repeat: no-repeat;
     padding: 100px;
 }
 .div4 h3 {
@@ -237,12 +243,12 @@ nav {
 }
 .ipod,
 .yx1 {
-    border-radius: 10px;
     width: 49%;
     height: 300px;
 } 
 .ipod {
-    background-image: url(../audiophile-page/image/earpod3.jpg); 
+    background-image: url(../audiophile-page/image/earpod3.jpg);
+    background-repeat: no-repeat; 
 }
 .div5 h3 {
     font-size: 25px;
@@ -250,7 +256,6 @@ nav {
     width: 40%;
 }
 .yx1 {
-    background-color: rgb(227, 227, 227);
     padding: 50px 50px 50px 80px;   
 }
 
@@ -271,6 +276,7 @@ nav {
 }
 .mod {
     background-image: url(../audiophile-page/image/modela.jpg);
+    background-repeat: no-repeat;
     border-radius: 10px;
     height: 500px;
     width: 50%;
@@ -287,7 +293,6 @@ nav {
     margin: auto;
 }
 .bold4 {
-    /* margin-left: 85px; */
     width: 50%;
 }
 .bold4 h2,
@@ -303,11 +308,6 @@ nav {
 }
 .nav2 {
     font-size: 0.8rem;
-    display: flex;
 }
 
 /*======media queries======*/
-
-@media screen and (max-width: 700px) {
-    
-}
