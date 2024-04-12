@@ -59,7 +59,6 @@ nav {
 } */
 
 .head,
-.div1,
 .div2,
 .div5,
 .div6,
@@ -67,16 +66,20 @@ nav {
     display: -webkit-flex;
 }
 .div1 {
+    background-image: url(../audiophile-page/image/headbcg.png);
+    background-size: 90%;
+    background-position-x: 30px;
+    background-position-y: -40px;
     padding: 60px 80px;
 }
 .bold {
     margin-left: 80px;
     margin-top: 60px;
+    margin-bottom: 100px;
     width: 40%;
 }
 .new {
     font-size: 0.8rem;
-    margin-bottom: 15px;
 }
 .bold p {
     width: 60%;
@@ -89,7 +92,8 @@ nav {
 .ex {
     margin-bottom: 50px;
 }
-.seemore {
+.seemore,
+.seeprod {
     color: black;
     font-size: 0.7rem;
     font-weight: bold;
@@ -98,16 +102,11 @@ nav {
     text-align: center;
     width: 30%;
 }
-.seemore:hover {
+.seemore:hover,
+.seeprod:hover {
     background-color: white;
 }
-.hpimg {
-    width: 100%;
-}
-.hpimg1 {
-    margin-left: 0px;
-    width: 35%;
-}
+
 
 
 .wrap {
@@ -157,6 +156,34 @@ nav {
     margin-left: -70px;
 }
 
+.div3 {
+    background-image: url(../audiophile-page/image/speak.png);
+    background-size: 110%;
+    background-position-x: 40px;
+    color: white;
+    height: 450px;
+    padding-top: 60px;
+    padding-left: 640px;
+    margin: 120px auto auto auto;
+}
+.bold2 {
+    width: 55%;
+}
+.zx9 {
+    font-size: 35px;
+    width: 30%; 
+}
+.ex2 {
+    margin-bottom: 50px;
+    width: 100%;
+}
+.seeprod {
+    background-color: black;
+    color: white;
+}
+.seeprod:hover {
+    color: black;
+}
 .head,
 .div3,
 .div4,
@@ -167,38 +194,7 @@ nav {
     width: 78%;
 }
 
-.div3 {
-    background-image: url(../audiophile-page/image/speak.png);
-    background-color: rgb(74, 190, 253);
-    background-position-x: -30px;
-    height: 480px;
-    margin: 170px auto auto auto;
-    padding: 0px;
-}
-/* .bold2 {
-    margin-top: 100px;
-    width: 35%;
-}
-.bold2 h1 {
-    color: white;
-    font-size: 50px;
-    margin: 0px;
-    width: 60%;
-    line-height: 1;
-}
-.bold2 p {
-    color: white;
-    margin-bottom: 50px;
-    width: 70%;
-}
-.seeprod {
-    font-size: 0.7rem;
-    font-weight: bold;
-    background-color: rgb(2, 1, 83);
-    padding: 15px 20px;
-    text-align: center;
-    width: 30%;
-} */
+
 .div4,
 .div5 {
     margin: 30px auto auto auto;
@@ -208,7 +204,6 @@ nav {
 .ipod {
     background-size: 100%;
 }
-.div3,
 .div4 {
     background-image: url('../audiophile-page/image/bcg.png');
     background-repeat: repeat-x;
@@ -309,4 +304,10 @@ nav {
 .nav2 {
     font-size: 0.8rem;
     display: flex;
+}
+
+/*======media queries======*/
+
+@media screen and (max-width: 700px) {
+    
 }
