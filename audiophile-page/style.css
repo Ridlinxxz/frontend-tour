@@ -112,8 +112,8 @@ nav {
 
 
 .div2 {
-    padding: 20px 150px;
-    width: 100%;
+    padding: 0px;
+    margin: 0px auto;
 }
 .div2 div {
     margin: 200px auto auto auto;
@@ -132,7 +132,7 @@ nav {
     border-radius: 15px;
     padding:100px 30px 20px 30px;
     text-align: center;
-    width: 30%;
+    width: 31%;
 }
 .headphone,
 .speaker,
@@ -189,6 +189,7 @@ nav {
     color: black;
 }
 .head,
+.div2,
 .div3,
 .div4,
 .div5,
@@ -309,5 +310,118 @@ nav {
 .nav2 {
     font-size: 0.8rem;
 }
+
+/*=====page 2======*/
+.div02,
+.div03,
+.cost,
+.div05,
+.div06 {
+    display: -webkit-flex;
+}
+.div02,
+.div03,
+.gb,
+.like,
+.div05,
+.div06 {
+    width: 78%;
+}
+.gb {
+    margin: 70px auto 50px auto;
+}
+.goback {
+    color: black;
+}
+.div02 {
+    margin: 30px auto;
+}
+.headset1 {
+    background-image: url(../audiophile-page/image/hp.png);
+    background-size: 50%;
+    border-radius: 5px;
+    background-color: rgb(231, 230, 230);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 520px;
+    padding: 0px;
+    width: 45%;
+}
+.boldd {
+    margin-top: 70px;
+    margin-left: 150px;
+    width: 40%;
+}
+.neww {
+    margin: 0px;
+}
+.boldd h1 {
+    font-size: 40px;
+    margin-top: 10px;
+    width: 60%;
+}
+.exx {
+    width: 90%;
+}
+.num {
+    background-color: rgb(227, 227, 227);
+    padding: 10px 50px 10px 40px;
+    width: 5%;
+}
+.addcart {
+    background-color: rgb(255, 132, 32);
+    padding: 10px 25px 10px 20px;
+    width: 5%;
+}
+.div03 {
+    margin: 150px auto auto auto;
+}
+.feature {
+    width: 55%;
+}
+.itb {
+    margin-left: 140px;
+    width: 30%;
+}
+.div03 important {
+    color: rgb(255, 132, 32);
+}
+.like {
+    text-align: center;
+    margin: 100px auto;
+}
+.div05,
+.div06 {
+    margin: auto;
+    -webkit-justify-content:space-between;
+}
+.headsett {
+    background-color: rgb(231, 230, 230);
+    background-image: url(../audiophile-page/image/hp.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40%;
+    border-radius: 10px;
+    height: 350px;
+    width: 32%;
+}
+.div06 {
+    margin-top: 10px;
+}
+.headset2 {
+    text-align: center;
+    width: 30%;
+}
+.headset2 h3 {
+    margin-bottom:50px;
+}
+.headset2 a {
+    background-color: rgb(255, 132, 32);
+    padding: 15px 25px;
+    font-size: 0.8rem;
+}
+
+
+
 
 /*======media queries======*/
