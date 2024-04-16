@@ -28,19 +28,16 @@ a {
 }
 .audiomart {
     margin: 0px;
-    padding-bottom: 20px;
+    padding: 0px;
 }
 .head {
     margin: auto;
-    padding: 20px 0px;
-}
-nav {
-    /* padding: 25px 0px; */
+    padding: 20px;
 }
 .nav a {
     font-size: 0.7rem;
     margin: 0px;
-    padding: 20px;
+    padding: 30px 20px;
 }
 .nav2 a {
     margin: auto 20px;
@@ -61,10 +58,10 @@ nav {
     display: -webkit-flex;
 }
 .div1 {
-    background-image: url(../audiophile-page/image/headbcg.png);
-    background-size: 90%;
-    background-position-x: 30px;
-    background-position-y: -40px;
+    background-image: url(../audiophile-page/image/hp.png);
+    background-size: 33%;
+    background-position-x: 700px;
+    background-position-y: 20px;
     background-repeat: no-repeat;
     padding: 60px 80px;
 }
@@ -365,6 +362,7 @@ nav {
 }
 .num {
     background-color: rgb(227, 227, 227);
+    margin: 0px;
     padding: 10px 50px 10px 40px;
     width: 5%;
 }
@@ -390,12 +388,48 @@ nav {
     text-align: center;
     margin: 100px auto;
 }
+
 .div05,
 .div06 {
     margin: auto;
     -webkit-justify-content:space-between;
 }
-.headsett {
+.div04 {
+    display: -webkit-flex;
+    margin: 100px auto auto auto;
+    width: 78%;
+}
+.img1 {
+    width: 45%;
+}
+.bck1,
+.bck2 {
+    background-image: url(../audiophile-page/image/modela.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 10px;
+    height: 300px;
+}
+.bck2 {
+    background-image: url(../audiophile-page/image/hppp.jpg);
+    background-size:100%;
+    background-position-y: -50px;
+    margin-top: 15px;
+}
+.img2 {
+    background-image: url(../audiophile-page/image/hpp1.png);
+    border-radius: 10px;
+    background-color: black;
+    background-size: 85%;
+    background-position: 200px -100px;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+    width: 55%;
+}
+
+.headsett,
+.headsett2,
+.headsett3 {
     background-color: rgb(231, 230, 230);
     background-image: url(../audiophile-page/image/hp.png);
     background-position: center;
@@ -404,6 +438,13 @@ nav {
     border-radius: 10px;
     height: 350px;
     width: 32%;
+}
+.headsett2 {
+    background-image: url(../audiophile-page/image/hpp1.png);
+}
+.headsett3 {
+    background-image: url(../audiophile-page/image/hpp2.png);
+    background-size: 50%;
 }
 .div06 {
     margin-top: 10px;
