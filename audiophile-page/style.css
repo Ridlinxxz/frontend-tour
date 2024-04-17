@@ -337,7 +337,6 @@ a {
     background-image: url(../audiophile-page/image/hp.png);
     background-size: 50%;
     border-radius: 5px;
-    background-color: rgb(231, 230, 230);
     background-position: center;
     background-repeat: no-repeat;
     height: 520px;
@@ -395,9 +394,7 @@ a {
     -webkit-justify-content:space-between;
 }
 .div04 {
-    display: -webkit-flex;
     margin: 100px auto auto auto;
-    width: 78%;
 }
 .img1 {
     width: 45%;
@@ -412,7 +409,6 @@ a {
 }
 .bck2 {
     background-image: url(../audiophile-page/image/hppp.jpg);
-    background-size:100%;
     background-position-y: -50px;
     margin-top: 15px;
 }
@@ -430,7 +426,6 @@ a {
 .headsett,
 .headsett2,
 .headsett3 {
-    background-color: rgb(231, 230, 230);
     background-image: url(../audiophile-page/image/hp.png);
     background-position: center;
     background-repeat: no-repeat;
