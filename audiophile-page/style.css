@@ -110,7 +110,7 @@ a {
 
 .div2 {
     padding: 0px;
-    margin: 0px auto;
+    margin: auto;
 }
 .div2 div {
     margin: 200px auto auto auto;
@@ -158,6 +158,7 @@ a {
 
 .div3 {
     background-image: url(../audiophile-page/image/speak.png);
+    background-color: rgb(255, 132, 32);
     background-size: 110%;
     background-position-x: -30px;
     background-repeat: no-repeat;
@@ -197,7 +198,9 @@ a {
     border-radius: 10px;
     width: 78%;
 }
-
+.div4 {
+    background-color: rgb(227, 227, 227);
+}
 .div4,
 .div5 {
     margin: 30px auto auto auto;
@@ -279,7 +282,7 @@ a {
     height: 500px;
     width: 50%;
 }
-.bold3 important {
+.best {
     color: rgb(255, 132, 32);
 }
 
@@ -313,6 +316,7 @@ a {
 .div03,
 .cost,
 .div05,
+.div04,
 .div06 {
     display: -webkit-flex;
 }
@@ -320,6 +324,7 @@ a {
 .div03,
 .gb,
 .like,
+.div04,
 .div05,
 .div06 {
     width: 78%;
@@ -380,7 +385,8 @@ a {
     margin-left: 140px;
     width: 30%;
 }
-.div03 important {
+.product-item-unit {
+    padding-right: 10px;
     color: rgb(255, 132, 32);
 }
 .like {
@@ -425,6 +431,13 @@ a {
 
 .headsett,
 .headsett2,
+.headsett3,
+.headset1 {
+    background-color: rgb(231, 230, 230);
+}
+
+.headsett,
+.headsett2,
 .headsett3 {
     background-image: url(../audiophile-page/image/hp.png);
     background-position: center;
@@ -456,8 +469,155 @@ a {
     padding: 15px 25px;
     font-size: 0.8rem;
 }
+.headset2 a:hover {
+    background-color: rgb(227, 227, 227);
+    color: black;
+}
 
 
 
 
 /*======media queries======*/
+
+@media screen and (max-width: 650px) {
+    .nav {
+        display: none;
+    }
+    .head {
+        -webkit-justify-content: center;
+    }
+    .audiomart {
+        font-size: 3rem;
+    }
+    .div1 {
+        text-align: center;
+        padding: 30px 0px 60px 0px;
+    }
+    .bold {
+        margin: 0px;
+        width: 100%;
+    }
+    .new {
+        font-size: 1.5rem;
+        margin: auto auto 10px auto;
+    }
+    .ex {
+        margin: auto auto 40px auto;
+    }
+    .seemore {
+        font-size: 0.8rem;
+        padding: 25px 45px;
+    }
+    .div2 {
+        margin: 70px auto;
+        -webkit-flex-direction: column;
+        width: 100%;
+    }
+    .headphone,
+    .speaker,
+    .earphone {
+        padding:170px 30px 20px 30px;
+        width: 100%;
+    }
+    .div2 h4 {
+        font-size: 1.5rem;
+    }
+    .div2 a {
+        font-size: 1rem;
+    }
+    .hp {
+        margin: -230px auto 0px -80px;
+        width: 28%;
+    }
+    .sp {
+        margin: -200px auto 0px -95px;
+        width: 36%;
+    }
+    .ep {
+        margin: -200px auto 0px -90px;
+        width: 34%;
+    }
+    .div2 div {
+        margin: 70px auto;
+    }
+    .div3 {
+        background-size: 55%;
+        background-position: center;
+        background-position-y: 85px;
+        margin: 0px;
+        height: 700px;
+        padding: 400px 0px 0px 0px;
+        text-align: center;
+        width: 100%;
+    }
+    .bold2 {
+        margin: auto;
+    }
+    .zx9 {
+        font-size: 40px;
+        margin: auto;
+        width: 100%;
+    }
+    .ex2 {
+        margin-bottom: 50px;
+    }
+    .seeprod {
+        font-size: 0.9rem;
+        padding: 30px 50px;
+    }
+    .div4 {
+        background-size: 65%;
+        background-position: center;
+        background-position-x: 290px;
+        background-position-y: 35px;
+        padding: 100px 300px 100px 10px;
+        text-align: center;
+        width: 100%;
+    }
+    .div4 h3 {
+        font-size: 30px;
+        margin-bottom: 50px;
+        width: 100%;
+    }
+    .div5,
+    .div6 {
+        flex-direction: column;
+        width: 100%;
+    }
+    .ipod,
+    .yx1 h3,
+    .mod {
+        width: 100%;
+    }
+    .yx1 {
+        margin-top: 30px;
+        text-align: left;
+        padding: 50px auto 70px auto;
+        width: 100%;
+    }
+    .yx1 h3 {
+        font-size: 45px;
+    }
+    .seeprod3 {
+        padding: 30px 70px;
+    }
+    .div6 {
+        margin: 50px auto;
+        text-align: center;
+    }
+    .bold3 {
+        margin: auto;
+        width: 100%;
+    }
+    .bring {
+        font-size: 50px;
+        width: 100%;
+    }
+    .lorem {
+        width: 100%;
+    }
+    .mod {
+        margin-top: 30px;
+    }
+
+}
