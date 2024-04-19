@@ -372,8 +372,8 @@ a {
 }
 .addcart {
     background-color: rgb(255, 132, 32);
-    padding: 10px 25px 10px 20px;
-    width: 5%;
+    padding: 10px 25px;
+    width: 29%;
 }
 .div03 {
     margin: 150px auto auto auto;
@@ -429,30 +429,48 @@ a {
     width: 55%;
 }
 
-.headsett,
-.headsett2,
-.headsett3,
 .headset1 {
     background-color: rgb(231, 230, 230);
 }
-
 .headsett,
 .headsett2,
 .headsett3 {
+    height: 530px;
+    text-align: center;
+    width: 32%;
+}
+.div05 h3 {
+    margin: 60px auto 40px auto;
+    font-size: 1.5rem;
+}
+.div05 a {
+    background-color: rgb(255, 132, 32);
+    padding: 20px 40px;
+}
+.cost a:hover, 
+.div05 a:hover {
+        background-color: rgb(231, 230, 230);
+        color: black;
+    }
+
+.hd,
+.hd2,
+.hd3 {
+    background-color: rgb(231, 230, 230);
     background-image: url(../audiophile-page/image/hp.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 40%;
     border-radius: 10px;
     height: 350px;
-    width: 32%;
+    width: 100%;
 }
-.headsett2 {
+.hd2 {
     background-image: url(../audiophile-page/image/hpp1.png);
 }
-.headsett3 {
+.hd3 {
     background-image: url(../audiophile-page/image/hpp2.png);
-    background-size: 50%;
+    background-size: 70%;
 }
 .div06 {
     margin-top: 10px;
@@ -480,7 +498,8 @@ a {
 /*======media queries======*/
 
 @media screen and (max-width: 650px) {
-    .nav {
+    .nav,
+    .nav2 {
         display: none;
     }
     .head {
@@ -501,7 +520,11 @@ a {
         font-size: 1.5rem;
         margin: auto auto 10px auto;
     }
+    .div1 h1 {
+        font-size: 4rem;
+    }
     .ex {
+        font-size: 1rem;
         margin: auto auto 40px auto;
     }
     .seemore {
@@ -538,7 +561,7 @@ a {
         width: 34%;
     }
     .div2 div {
-        margin: 70px auto;
+        margin: 60px auto;
     }
     .div3 {
         background-size: 55%;
@@ -580,7 +603,8 @@ a {
         width: 100%;
     }
     .div5,
-    .div6 {
+    .div6,
+    .foot {
         flex-direction: column;
         width: 100%;
     }
@@ -614,10 +638,132 @@ a {
         width: 100%;
     }
     .lorem {
+        font-size: 1.2rem;
+        line-height: 1.8;
         width: 100%;
     }
     .mod {
         margin-top: 30px;
+    }
+    .foot {
+        text-align: center;
+    }
+    .footer {
+        padding: 100px 10px;
+    }
+    .bold4 {
+        margin: auto;
+        width: 100%;
+    }
+    .bold4 h2 {
+        width: 100%;
+        font-size: 2.5rem;
+    }
+    .longword {
+        font-size: 1.2rem;
+    }
+
+    /*======product page======*/
+    .div02,
+    .div03,
+    .div04,
+    .div05 {
+        flex-direction: column;
+        margin: auto;
+        width: 100%;
+    }
+    .headset1,
+    .boldd h1 {
+        width: 100%;
+    }
+    .boldd {
+        margin: 50px auto;
+        text-align: center;
+        width: 100%;
+    }
+    .neww {
+        font-size: 1.4rem;
+    }
+    .boldd h1 {
+        font-size: 3rem;
+    }
+    .exx {
+        font-size: 1.2rem;
+        margin: auto;
+        width: 80%;
+    }
+    .price {
+        font-size: 1.6rem;
+    }
+    .addcart,
+    .num {
+        width: 30%;
+    }
+    .cost a:hover, 
+    .div05 a:hover {
+        background-color: rgb(231, 230, 230);
+        color: black;
+    }
+    .cost {
+        -webkit-justify-content: center;
+    }
+    .div03 {
+        text-align: center;
+    }
+    .feature,
+    .itb {
+        width: 100%;
+        font-size: 2rem;
+        margin: 0px;
+    }
+    .feature p,
+    .itb p {
+        width: 100%;
+        font-size: 1.2rem;
+    }
+    .div04 {
+        margin-top: 80px;
+    }
+    .img1,
+    .img2 {
+        width: 100%;
+    }
+    .img2 {
+        background-size: 75%;
+        height: 500px;
+        margin: 20px 0px 0px 0px;
+    }
+    .like h2 {
+        font-size: 2rem;
+    }
+    .headsett,
+    .headsett2,
+    .headsett3 {
+        margin: 20px 0px;
+        width: 100%;
+    }
+    .div05 h3 {
+        margin-top: 30px;
+        font-size: 1.8rem;
+    }
+    .div05 {
+        margin-bottom: 100px;
+    }
+    .div05 a {
+        width: 100%;
+    }
+    /* .div05 a:hover {
+        background-color: rgb(231, 230, 230);
+        color: black;
+    } */
+    .hd {
+
+    }
+    .hd2 {
+        background-size: 35%;
+    }
+    .hd3 {
+        background-size: 50%;
     }
 
 }
