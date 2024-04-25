@@ -145,11 +145,11 @@ a {
     position: absolute;
     margin-top: -150px;
     margin-left: -57px;
-    width: 8%;
+    width: 7%;
 }
 .sp {
-    width: 7%;
-    margin-left: -48px;
+    width: 11%;
+    margin-left: -80px;
 }
 .ep {
     width: 10%;
@@ -159,8 +159,9 @@ a {
 .div3 {
     background-image: url(../audiophile-page/image/speak.png);
     background-color: rgb(255, 132, 32);
-    background-size: 110%;
-    background-position-x: -30px;
+    background-size: 50%;
+    background-position-x: -200px;
+    background-position-y: 50px;
     background-repeat: no-repeat;
     color: white;
     height: 450px;
@@ -214,6 +215,8 @@ a {
 }
 .div4 {
     background-image: url('../audiophile-page/image/bcg.png');
+    background-size: 45%;
+    background-position-x: 650px;
     background-position-y: -10px;
     background-repeat: no-repeat;
     padding: 100px;
